@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Luminous Sun (Solar Gold) in background -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M64,32 C70.63,32 76,37.37 76,44 C76,50.63 70.63,56 64,56 C57.37,56 52,50.63 52,44 C52,37.37 57.37,32 64,32 Z" />
+        
+    <!-- Rays of Sun -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M64,22 L64,28 M64,60 L64,66 M42,44 L48,44 M80,44 L86,44 M48,28 L52.5,32.5 M75.5,55.5 L80,60 M48,60 L52.5,55.5 M75.5,32.5 L80,28"
+        android:strokeColor="#FFA726"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Luminous Cloud (Polar Cyan) overlaying the sun -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M38,68 C34.69,68 32,65.31 32,62 C32,58.69 34.69,56 38,56 C38.34,56 38.67,56.03 39,56.09 C40.56,50.41 45.77,46 52,46 C58.83,46 64.5,51.07 65.35,57.63 C67.07,56.6 69.1,56 71.2,56 C76.61,56 81,60.39 81,65.8 C81,71.21 76.61,75.6 71.2,75.6 L38,75.6 Z" />
+</vector>
